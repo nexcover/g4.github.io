@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'MICEGothic Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/MICEGothic Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0px;
+    font-family: 'MICEGothic Bold';
+}
+
+.notice {
+    width: 96vw;
+    position: fixed;
+    z-index: 1;
+    text-align: right;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+ol {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+li {
+    margin-top: 4px;
+}
+
+.Container {
+    width: 100%;
+    height: 100vh;
+}
+
+.list {
+    width: 100%;
+    height: 100vh;
+    border-bottom: 1px solid gray;
+    z-index: 2;
+}
+
+#NO1 {
+    background-image: url(../img/space8.png);
+    background-size: cover;
+}
+
+#NO2 {
+    background-image: url(../img/space7.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+#NO3 {
+    background-image: url(../img/space9.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+a {
+    text-decoration-line: none;
+    color: white;
+    
+}
+
+p {
+    margin: 0px;
+}
+
+#name {
+    font-size: 20px;
+    margin-right: 5vw;
+}
+
+.left {
+    width: 200px;
+    position: fixed;
+    margin-top: 40vh;
+    margin-left: 4vw;
+    z-index: 1;
+}
+
+#left {
+    margin-top: 2vw;
+    font-size: 20px;
+    color: white;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/%E3%85%88%E3%85%88%EC%9E%90%EC%82%B0%202%E3%85%8E%E3%85%8E%E3%85%8E.png);
+    z-index: 1;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+#NO4 {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NO4-1 {
+    width: 300px;
+    height: 300px;
+
+    background-image: url(../img/%E3%85%88%E3%85%88%EC%9E%90%EC%82%B0%202%E3%85%8E%E3%85%8E%E3%85%8E.png);
+    background-size: contain;
+}
+
+#text {
+    color: white;
+}
+
+
+
+div {
+    font-family: 'Pretendard-Regular';
+}
