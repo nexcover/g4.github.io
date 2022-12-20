@@ -118,19 +118,9 @@ p {
     align-items: center;
 }
 
-.NO4-1 {
-    width: 300px;
-    height: 300px;
-
-    background-image: url(../img/%E3%85%88%E3%85%88%EC%9E%90%EC%82%B0%202%E3%85%8E%E3%85%8E%E3%85%8E.png);
-    background-size: contain;
-}
-
 #text {
     color: white;
 }
-
-
 
 div {
     font-family: 'Pretendard-Regular';
