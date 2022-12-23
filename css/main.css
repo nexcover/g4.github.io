@@ -17,7 +17,7 @@
 body {
     margin: 0px;
     color: white;
-    font:bold 16px "malgun gothic";
+    font-family: 'Pretendard-Regular';
 }
 
 .list {
