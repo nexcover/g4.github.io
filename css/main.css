@@ -17,6 +17,7 @@
 body {
     margin: 0px;
     color: white;
+    font:bold 16px "malgun gothic";
 }
 
 .list {
@@ -34,6 +35,7 @@ body {
 .menu {
     width: 200px;
     height: 70px;
+    font-size: 20px;
 }
 
 .notice {
@@ -99,4 +101,8 @@ body {
 a {
     text-decoration: none;
     color: white;
+}
+
+#menu {
+    margin: 0px;
 }
