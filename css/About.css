@@ -1,0 +1,96 @@
+body {
+    margin: 0px;
+}
+
+.AboutContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.Emty0 {
+    width: 100%;
+    height: 25vh;
+    background-position: top;
+    background-size: cover;
+}
+
+.Emty1 {
+    width: 20%;
+    height: 75vh;
+    float: left;
+}
+
+.Emty2 {
+    width: 80%;
+    height: 75vh;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400px;
+}
+
+.AboutPict {
+    width: 300px;
+    height: 300px;
+
+    transition: 1s;
+    color: white;
+}
+
+.AboutPict:hover {
+    transform: scale(1.1);
+}
+
+.AboutText1 {
+    width: 280px;
+    height: 70px;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 13px;
+    border: 2px solid white;
+}
+
+.img {
+    width: 300px;
+    filter: blur(3px);
+}
+
+.pic {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    filter: 
+}
+
+.text0 {
+    width: 280px;
+    height: 110px;
+    color: white;
+    padding: 14px;
+    position: relative;
+    bottom: 90px;
+}
+
+#Aboutpict1 {
+    background-image: url(../img/g4about.jpg.jpeg);
+}
+
+#Aboutpict2 {
+    background-image: url(../img/g4about2.jpeg);
+}
+
+#Aboutpict3 {
+    background-image: url(../img/g4about1.jpeg);
+}
+
+
