@@ -35,16 +35,14 @@ body {
 
 .menu {
     width: 20vw;
-    height: 4vw;
-    font-size: 2vw;
+    height: 2vw;
+    font-size: 20px;
 }
 
 .notice {
-    width: 24vw;
-    height: 4vw;
-    font-size: 1.6vw;
-    margin-top: 0.3vw;
-    margin-right: 40px;
+    width: 22vw;
+    height: 2vw;
+    margin-right: 10px;
 }
 
 .basemenu {
@@ -66,7 +64,7 @@ body {
 }
 
 .imglogo {
-    width: 10vw;
+    width: 100px;
     margin-bottom: 10vw;
 }
 
@@ -112,4 +110,12 @@ a {
 
 #menu {
     margin: 0px;
+}
+
+.leftmenu {
+    font-size: 18px
+}
+
+.topmenu {
+    font-size: 17px;
 }
