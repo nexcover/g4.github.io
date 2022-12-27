@@ -27,31 +27,33 @@ body {
 }
 
 .left {
-    width: 170px;
-    height: 400px;
+    width: 16vw;
+    height: 36vw;
     color: white;
+    font-size: 1.8vw;
 }
 
 .menu {
-    width: 200px;
-    height: 70px;
-    font-size: 20px;
+    width: 20vw;
+    height: 4vw;
+    font-size: 2vw;
 }
 
 .notice {
-    width: 330px;
-    height: 70px;
-    font-family: 'Pretendard-Regular';
-    padding-top: 10px;
+    width: 24vw;
+    height: 4vw;
+    font-size: 1.6vw;
+    margin-top: 0.3vw;
+    margin-right: 40px;
 }
 
 .basemenu {
     width: 100%;
-    height: 100px;
+    height: 10vw;
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    padding: 30px;
+    padding: 3vw;
     position: fixed;
 }  
 
@@ -64,8 +66,8 @@ body {
 }
 
 .imglogo {
-    width: 100px;
-    margin-bottom: 100px;
+    width: 10vw;
+    margin-bottom: 10vw;
 }
 
 .page2 {
@@ -102,6 +104,10 @@ body {
 a {
     text-decoration: none;
     color: white;
+}
+
+#menu {
+    margin: 0px;
 }
 
 #menu {
