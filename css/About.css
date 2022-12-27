@@ -1,96 +1,141 @@
-body {
-    margin: 0px;
-}
 
-.AboutContainer {
+#Program {
     width: 100%;
     height: 100vh;
     background-color: black;
 }
 
-.Emty0 {
-    width: 100%;
-    height: 25vh;
-    background-position: top;
-    background-size: cover;
+.Program {
+    border: 4px solid white;
+    border-radius: 50%;
+    width: 12vw;
+    height: 12vw;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 6vw;
+    margin-right: 4vw;
 }
 
-.Emty1 {
+.Program1 {
+    margin-top: 5vh;
+}
+
+.program0 {
+    width: 100%;
+    height: 25vh;
+}
+
+.program1 {
     width: 20%;
     height: 75vh;
     float: left;
 }
 
-.Emty2 {
+.program2 {
     width: 80%;
     height: 75vh;
     float: left;
+}
+
+.emty0 {
+    width: 100%;
+    height: 25vh;
+}
+
+.program2-1 {
+    width: 100%;
+    height: 37.5vh;
     display: flex;
     justify-content: center;
-    align-items: center;
     justify-content: space-around;
 }
 
+.program2-2 {
+    width: 100%;
+    height: 37.5vh;
+    background-color: greenyellow;
+}
+
+.program2-1 {
+    width: 100%;
+    height: 37.5vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+#menu div {
+    position: relative;
+    display: inline-block;
+}
+
+span {
+    display: flex;
+    width: 8vw;
+    height: 8vw;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.arrow_box {
+  display: none;
+  position: absolute;
+  width: 10vw;
+  padding: 8px;
+  left: 0;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;  
+  border-radius: 8px;
+  background: #333;
+  color: #fff;
+
+}
+
+.arrow_box:after {
+  position: absolute;
+  bottom: 100%;
+  left: 35%;
+  width: 0;
+  height: 0;
+  margin-left: -10px;
+  border: solid transparent;
+  border-color: rgba(51, 51, 51, 0);
+  border-bottom-color: #333;
+  border-width: 10px;
+  pointer-events: none;
+  content: "  ";
+}
+
+span:hover + p.arrow_box {
+  display:block ;
+}
+
+
 .text {
+    margin: 0px;
+    font-size: 1.6vw;
     color: white;
-    font-size: 20px;
     margin-top: 20px;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 400px;
 }
 
-.AboutPict {
-    width: 300px;
-    height: 300px;
-
-    transition: 1s;
-    color: white;
-}
-
-.AboutPict:hover {
-    transform: scale(1.1);
-}
-
-.AboutText1 {
-    width: 280px;
-    height: 70px;
-    color: white;
-    font-family: 'Noto Sans KR', sans-serif;
-    margin: 13px;
-    border: 2px solid white;
-}
 
 .img {
-    width: 300px;
-    filter: blur(3px);
+    width: 80%;
+    object-fit: cover;
+    overflow: hidden;
+    margin:0 auto;
 }
 
-.pic {
-    width: 300px;
-    height: 300px;
-    background-size: cover;
-    filter: 
+.imgbox {
+    border: 3px solid white;
+    background-color: white;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    transition: 1s;
+    text-align: center;
 }
 
-.text0 {
-    width: 280px;
-    height: 110px;
-    color: white;
-    padding: 14px;
-    position: relative;
-    bottom: 90px;
+.imgbox:hover {
+    transform: scale(1.2);
 }
-
-#Aboutpict1 {
-    background-image: url(../img/g4about.jpg.jpeg);
-}
-
-#Aboutpict2 {
-    background-image: url(../img/g4about2.jpeg);
-}
-
-#Aboutpict3 {
-    background-image: url(../img/g4about1.jpeg);
-}
-
-
