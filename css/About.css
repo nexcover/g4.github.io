@@ -39,8 +39,8 @@ body {
 }
 
 .AboutPict {
-    width: 300px;
-    height: 300px;
+    width: 30vw;
+    height: 30vw;
 
     transition: 1s;
     color: white;
