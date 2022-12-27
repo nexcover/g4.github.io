@@ -26,11 +26,11 @@ body {
     background-size: cover;
 }
 
-.left {
+.leftmenu {
     width: 16vw;
     height: 36vw;
     color: white;
-    font-size: 1.8vw;
+    font-size: 18px;
 }
 
 .menu {
@@ -110,10 +110,6 @@ a {
 
 #menu {
     margin: 0px;
-}
-
-.leftmenu {
-    font-size: 18px;
 }
 
 .topmenu {
