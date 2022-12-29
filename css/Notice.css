@@ -1,20 +1,16 @@
 
 #Notice {
-    background-image: url(../img/space3.jpg);
-    background-size: cover;
-    background-position: bottom;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #111420;
 }
 
 .Notice {
     color: black;
     border: 3px solid white;
     width: 50vw;
-    height: 60vh;
-    margin-left: 40vw;
-    margin-top: 3vh;
+    height: 40vw;
     text-align: center;
     background-color: rgba(225, 225, 225, 0.7);
 }

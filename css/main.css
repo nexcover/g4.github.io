@@ -24,13 +24,14 @@ body {
     width: 100%;
     height: 100vh;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .leftmenu {
-    width: 16vw;
-    height: 36vw;
     color: white;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .menu {
@@ -112,6 +113,24 @@ a {
     margin: 0px;
 }
 
+
+
 .topmenu {
     font-size: 17px;
+}
+
+.LeftText {
+    margin-top: 25px;
+}
+
+.center {
+    width: 40vw;
+    height: 3vw;
+    color: white;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.centertext {
+    margin: 0px;
 }
