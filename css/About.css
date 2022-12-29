@@ -26,9 +26,7 @@ body {
     height: 75vh;
     float: left;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around;
+    margin-top: 5vw
 }
 
 .text {
@@ -40,13 +38,8 @@ body {
 
 .AboutPict {
     width: 30vw;
-    height: 30vw;
-    transition: 1s;
+    height: 30vw
     color: white;
-}
-
-.AboutPict:hover {
-    transform: scale(1.1);
 }
 
 .AboutText1 {
@@ -64,19 +57,24 @@ body {
 }
 
 .pic {
-    width: 23vw;
-    height: 25vw;
-    background-size: cover;
-    filter: 
+    width: 22vw;
+    height: 22vw;
+    background-size: contain;
+    transition: 1s;
+    cursor: pointer;
 }
+
+.pic:hover {
+    transform: scale(1.1);
+}
+
 
 .text0 {
     position: relative;
-    top: 5vw;
-    font-size: 2.5vw;
+    font-size: 2.2vw;
     font-weight: bold;
     margin: 0px;
-    padding: 20px;
+    padding: 2vw;
 }
 
 #Aboutpict1 {
