@@ -39,29 +39,14 @@
     justify-content: space-around;
 }
 
-.program2-2 {
-    width: 100%;
-    height: 37.5vh;
-    background-color: greenyellow;
-}
 
-.program2-1 {
-    width: 100%;
-    height: 37.5vh;
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-}
-#menu div {
-    position: relative;
-    display: inline-block;
-}
+
 
 span {
-    display: flex;
     width: 8vw;
     height: 8vw;
     cursor: pointer;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -76,12 +61,12 @@ span {
   border-radius: 8px;
   background: #333;
   color: #fff;
-  font-size: 0.8vw;
+  font-size: 1vw;
 }
 
 .arrow_box:after {
   position: absolute;
-  bottom: 100%;
+  bottom: 96%;
   left: 35%;
   width: 0;
   height: 0;
@@ -112,38 +97,62 @@ span:hover + p.arrow_box {
     object-fit: cover;
     overflow: hidden;
     margin:0 auto;
+    display: flex;
 }
 
 .imgbox {
-    border: 3px solid white;
-    background-color: white;
+    border: 3px solid #D9D9D9;
+    background-color: #D9D9D9;
     width: 8vw;
     height: 8vw;
     border-radius: 50%;
     transition: 1s;
-    text-align: center;
 }
 
 .imgbox:hover {
     transform: scale(1.2);
 }
+
 .Program {
     width: 100%;
     height: 100vh;
 }
 
-
-
-
 #arrow1 {
-    width: 7vw;
+    width: 10vw;
 }
 
 #arrow2 {
-    width: 7vw;
+    width: 7.5vw;
 }
 
 #arrow3 {
-    width: 11vw;
+    width: 11.5vw;
     left: -20px;
+}
+
+#arrow5 {
+    width: 11vw;
+}
+
+#arrow6 {
+    width: 11.5vw;
+}
+
+#arrow7 {
+    width: 11vw;
+}
+
+#arrow8 {
+    width: 11vw;
+}
+
+#arrow4 {
+    width: 11.5vw;
+}
+
+.text0 {
+    width: 8vw;
+    height: 2vw;
+    text-align: center;
 }

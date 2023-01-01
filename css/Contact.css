@@ -9,16 +9,20 @@
 }
 
 .Contact {
-    border: 3px solid white;
-    width: 27vw;
-    height: 12vw;
-    color: white;
-    font-size: 2.2vw;
+    border: 3px solid #D9D9D9;
+    width: 26vw;
+    height: 9vw;
+    color: black;
+    font-size: 2vw;
     font-family: 'Noto Sans KR', sans-serif;
     border-radius: 20px;
-    background-color: rgba(225, 225, 225, 0.1);
+    background-color: #D9D9D9;
 }
 
 
 
 
+
+#contct {
+    list-style: none;
+}
