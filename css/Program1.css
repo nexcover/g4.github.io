@@ -23,40 +23,43 @@
     height: 4.5vw;
     border-radius: 50%;
     transition: 1s;
-    background-size: 3.6vw;
+    background-size: 3vw;
     background-repeat: no-repeat;
     background-position: center;
 }
 #imgbox1 {
-    background-image: url(../img/p3.jpg);
+    background-image: url(../img/Group1.png);
 }
 
 #imgbox2 {
-    background-image: url(../img/p7.jpg);
+    background-image: url(../img/Group2.png);
 }
 
 #imgbox3 {
-    background-image: url(../img/p4.jpg);
+    background-image: url(../img/Group3.png);
 }
 
 #imgbox4 {
-    background-image: url(../img/p8.jpg);
+    background-image: url(../img/Group4.png);
 }
 
 #imgbox5 {
-    background-image: url(../img/p6.jpg);
+    background-image: url(../img/Group5.png);
 }
 
 #imgbox6 {
-    background-image: url(../img/p5.jpg);
+    background-image: url(../img/Group6.png);
+    background-size: 3.7vw;
 }
 
 #imgbox7 {
-    background-image: url(../img/p1.jpg);
+    background-image: url(../img/Group7.png);
+    background-size: 3.7vw;
 }
 
 #imgbox8 {
-    background-image: url(../img/p2.jpg);
+    background-image: url(../img/Group8.png);
+    background-size: 3.7vw;
 }
 
 
@@ -65,3 +68,5 @@
     height: 15vw;
     background-color: gray;
 }
+
+
