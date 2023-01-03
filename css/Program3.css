@@ -14,11 +14,36 @@
 }
 
 #img3-4 {
-    background-image: url(../img/);
+    background-image: url(../img/f3.jpg);
     background-size: cover;
 }
 
 #img3-5 {
+    background-image: url(../img/f5.jpg);
+    background-size: cover;
+}
+
+#img3-6 {
+    background-image: url(../img/f6.jpg);
+    background-size: cover;
+}
+
+#img3-7 {
+    background-image: url(../img/f7.jpg);
+    background-size: cover;
+}
+
+#img3-8 {
+    background-image: url(../img/f8.jpg);
+    background-size: cover;
+}
+
+#img3-9 {
+    background-image: url(../img/f9.jpg);
+    background-size: cover;
+}
+
+#img3-10 {
     background-image: url(../img/);
     background-size: cover;
 }
