@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'MICEGothic Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/MICEGothic Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0px;
+    color: white;
+    font-family: 'Pretendard-Regular';
+}
+
+.list {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftmenu {
+    color: white;
+    font-size: 17px;
+}
+
+.menu {
+    width: 25vw;
+    height: 2vw;
+    font-size: 20px;
+}
+
+.notice {
+    width: 22vw;
+    height: 2vw;
+    margin-right: 10px;
+}
+
+.basemenu {
+    width: 100%;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 3vw;
+    position: fixed;
+}  
+
+.blank {
+    flex-grow: 1
+}
+
+#top {
+    position: fixed;
+}
+
+.imglogo {
+    width: 100px;
+    margin-bottom: vw;
+}
+
+.page2 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/space7.png);
+    background-size: cover;
+}
+
+.page3 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/space9.png);
+    background-size: cover;
+}
+
+#NO1 {
+    background-image: url(../img/space8.png);
+}
+
+#NO2 {
+    background-image: url(../img/space7.png);
+}
+
+#NO3 {
+    background-image: url(../img/space9.png);
+}
+
+.Container {
+    width: 100%;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu {
+    margin: 0px;
+}
+
+#menu {
+    margin: 0px;
+}
+
+
+
+.topmenu {
+    font-size: 17px;
+}
+
+.LeftText {
+    margin-top: 28px;
+}
+
+.center {
+    width: 40vw;
+    height: 3vw;
+    color: white;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.centertext {
+    margin: 0px;
+}

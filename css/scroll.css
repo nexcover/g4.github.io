@@ -1,0 +1,13 @@
+body {
+    overflow: hidden;
+}
+
+.Container {
+    overflow: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+.list {
+    scroll-snap-align: center; 
+}
