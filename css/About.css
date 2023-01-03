@@ -51,8 +51,6 @@ body {
     border: 2px solid white;
 }
 
-
-
 .pic {
     width: 20vw;
     height: 20vw;
@@ -66,9 +64,6 @@ body {
     transform: scale(1.1);
 }
 
-
-
-
 #Aboutpict1 {
     background-image: url(../img/g4about.jpg.jpeg);
 }
@@ -80,10 +75,6 @@ body {
 #Aboutpict3 {
     background-image: url(../img/g4about1.jpeg);
 }
-
-
-
-
 
 .text1 {
     font-size: 2.3vw;

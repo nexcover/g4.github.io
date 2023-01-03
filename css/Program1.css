@@ -8,11 +8,11 @@
 
 .program2-3 {
     width: 100%;
-    height: 65.5vh;
+    height: 61vh;
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    padding: 20px;
+    padding-top: 30px;
     flex-wrap: wrap;
 }
 
@@ -70,3 +70,56 @@
 }
 
 
+
+
+
+
+#img1-1 {
+    background-image: url(../img/a1.jpeg);
+    background-size: cover;
+}
+
+#img1-2 {
+    background-image: url(../img/a2.jpeg);
+    background-size: cover;
+}
+
+#img1-3 {
+    background-image: url(../img/a3.jpeg);
+    background-size: cover;
+}
+
+#img1-4 {
+    background-image: url(../img/a4.jpeg);
+    background-size: cover;
+}
+
+#img1-6 {
+    background-image: url(../img/a10.JPG);
+    background-size: cover;
+}
+
+#img1-5 {
+    background-image: url(../img/a5.jpeg);
+    background-size: cover;
+}
+
+#img1-7 {
+    background-image: url(../img/a12.JPG);
+    background-size: cover;
+}
+
+#img1-8 {
+    background-image: url(../img/a14.JPG);
+    background-size: cover;
+}
+
+#img1-9 {
+    background-image: url(../img/a15.JPG);
+    background-size: cover;
+}
+
+#img1-10 {
+    background-image: url(../img/a16.JPG);
+    background-size: cover;
+}
