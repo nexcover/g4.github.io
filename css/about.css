@@ -1,0 +1,67 @@
+.bgc {
+    width: 100%;
+    height: 100vh;
+    background-color: #111420;
+    padding-left: 150px;
+    padding-top: 150px;
+}
+
+.card-body {
+    background-color: gray;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+}
+
+#cardimg1 {
+    background-image:url(../img/g4about.jpg.jpeg);
+}
+
+#cardimg2 {
+    background-image:url(../img/g4about1.jpeg);
+}
+
+#cardimg3 {
+    background-image:url(../img/g4about2.jpeg);
+}
+
+.imgtext {
+    color: white;
+    font-size: 25px;
+    padding: 40px 0px 0px 40px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:768px) {
+    .imgtext {
+    color: white;
+    font-size: 25px;
+    padding: 40px 0px 0px 40px;
+    font-weight: bold;
+    }
+    
+    #cardimg1 {
+        width: 75vw;
+        height: 75vw;
+    } 
+    
+    #cardimg2 {
+        width: 75vw;
+        height: 75vw;
+    } 
+    
+    #cardimg3 {
+        width: 75vw;
+        height: 75vw;
+    }
+    
+    .bgc {
+        width: 100%;
+        height: 170vh;
+        background-color: black;
+        padding: 0px;
+        padding-left: 10px;
+        padding-top: 100px;
+}
+
+

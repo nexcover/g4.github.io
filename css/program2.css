@@ -1,0 +1,90 @@
+#program2-1 {
+    background-image: url(../img/y1.jpeg);
+    background-size: cover;
+    background-color: gray;
+}
+
+#program2-2 {
+    background-image: url(../img/y2.jpeg);
+    background-size: cover;
+    background-color: gray;
+}
+
+#program2-3 {
+    background-image: url(../img/y3.jpeg);
+    background-size: cover;
+    background-color: gray;
+}
+
+#program2-4 {
+    background-image: url(../img/y4.jpeg);
+    background-size: cover;
+    background-color: gray;
+}
+
+#program2-5 {
+    background-image: url(../img/y5.jpeg);
+    background-size: cover;
+    background-color: gray;
+}
+
+#program2-6 {
+    background-image: url();
+    background-size: cover;
+    background-color: gray;
+}
+
+#program2-7 {
+    background-image: url();
+    background-size: cover;
+    background-color: gray;
+}
+
+#program2-8 {
+    background-image: url();
+    background-size: cover;
+    background-color: gray;
+}
+
+@media screen and (max-width:768px) {
+    #program2-1 {
+        width: 41vw;
+        height: 41vw;
+    }
+
+    #program2-2 {
+        width: 41vw;
+        height: 41vw;
+    }
+
+    #program2-3 {
+        width: 41vw;
+        height: 41vw;
+    }
+
+    #program2-4 {
+        width: 41vw;
+        height: 41vw;
+    }
+
+    #program2-5 {
+        width: 41vw;
+        height: 41vw;
+    }
+
+    #program2-6 {
+        width: 41vw;
+        height: 41vw;
+    }
+
+    #program2-7 {
+        width: 41vw;
+        height: 41vw;
+    }
+
+    #program2-8 {
+        width: 41vw;
+        height: 41vw;
+    }
+}
+

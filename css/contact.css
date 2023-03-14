@@ -1,0 +1,30 @@
+.contact {
+    width: 350px;
+    height: 200px;
+    background-color: gray;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    padding-top: 15px;
+    font-size: 25px;
+    position: absolute;
+    left: 89%;
+    margin-left: -50%;
+    top: 30%;
+    color: white;
+}
+
+.bgc {
+    position: relative;
+}
+
+@media screen and (max-width:768px) {
+    .contact {
+        position: absolute;
+        left: 50%;
+        margin-left: -35%;
+        top: 20%;
+    }
+}

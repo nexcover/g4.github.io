@@ -1,136 +1,143 @@
-@font-face {
-    font-family: 'MICEGothic Bold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-01@1.0/MICEGothic Bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
-
-@font-face {
-    font-family: 'Pretendard-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-
-body {
-    margin: 0px;
-    color: white;
-    font-family: 'Pretendard-Regular';
-}
-
-.list {
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.leftmenu {
-    color: white;
-    font-size: 17px;
-}
-
-.menu {
-    width: 25vw;
-    height: 2vw;
-    font-size: 20px;
-}
-
-.notice {
-    width: 22vw;
-    height: 2vw;
-    margin-right: 10px;
-}
-
-.basemenu {
-    width: 100%;
-    height: 10vw;
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    padding: 3vw;
-    position: fixed;
-}  
-
-.blank {
-    flex-grow: 1
-}
-
-#top {
-    position: fixed;
-}
-
-.imglogo {
-    width: 100px;
-    margin-bottom: vw;
-}
-
-.page2 {
-    width: 100%;
-    height: 100vh;
+#box1 {
     background-image: url(../img/space7.png);
     background-size: cover;
 }
 
-.page3 {
-    width: 100%;
-    height: 100vh;
-    background-image: url(../img/space9.png);
-    background-size: cover;
-}
-
-#NO1 {
+#box2 {
     background-image: url(../img/space8.png);
+    background-size: cover;
 }
 
-#NO2 {
-    background-image: url(../img/space7.png);
-}
-
-#NO3 {
+#box3 {
     background-image: url(../img/space9.png);
+    background-size: cover;
 }
 
-.Container {
-    width: 100%;
-    height: 100vh;
+#box4 {
+    display: none;
 }
 
-a {
-    text-decoration: none;
-    color: white;
+#leftmenu {
+    position: relative;
+    bottom: 100px;
+    left: 27px;
 }
 
-#menu {
-    margin: 0px;
+#menudrop {
+    background-color: black;
+    border: 1px solid black;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    width: 20%;
+    text-align: center;
 }
-
-#menu {
-    margin: 0px;
-}
-
-
 
 .topmenu {
-    font-size: 17px;
+    width: 600px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
 }
 
-.LeftText {
-    margin-top: 28px;
-}
-
-.center {
-    width: 40vw;
-    height: 3vw;
+.textOp {
+    text-decoration-line: none;
     color: white;
-    text-align: center;
-    font-size: 1.5vw;
+    margin-bottom: 20px;
 }
 
-.centertext {
+
+
+#textOp1 {
+    color: white;
+    text-decoration-line: none;
+}
+
+
+
+.container-fluid {
+    width: 100%;
+}
+
+#navbar {
+    display: none;
+    position: relative;
+}
+
+.text {
+    color: white;
+}
+
+.list-group-item {
+    background-color: #1f2125;
+    color: white;
+    border: none;
+}
+
+
+#navlist {
+    background-color: #1f2125;
+}
+
+.navbar-toggler {
+    display: flex;
+}
+
+
+#list-group {
+    text-decoration-line: none;
+    color: white;
+}
+
+.text-white {
     margin: 0px;
 }
+
+#mobilenav {
+    display: none;
+} 
+
+
+
+@media screen and (max-width:768px) {
+
+    #PcNav {
+        display: none;
+    }
+
+    #carouselExampleSlidesOnly {
+        display: none;
+    }
+
+    #box4 {
+        display: flex;
+        background-image: url(../img/g15.jpg);
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bg {
+        width: 100%%;
+        height: 100vh;
+    }
+
+    .Mainmessage {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        padding-top: 60%;
+        font-weight: 400;
+    }
+
+    #navbar {
+        background-color: #1f2125;
+        display: flex;
+    }
+    
+    #mobilenav {
+        display: flex;
+    }
+}
+

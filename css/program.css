@@ -1,0 +1,69 @@
+.innerDiv {
+    height: 230px;
+    text-align: center;
+    color: white;
+}
+
+.imgbg {
+    width: 150px;
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    transition: 1s;
+}
+
+.imgbg:hover {
+    transform: scale(1.1);
+}
+
+#img {
+    width: 80%;
+    height: 80%;
+}
+
+#box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.custom-tooltip.tooltip > .tooltip-inner {
+    text-align: left;
+    max-width: 500px;
+    background-color: dimgray;
+    position: relative;
+    top: 8px;
+}
+
+.custom-tooltip.tooltip > .tooltip-arrow::before {
+    border-bottom-color: dimgray;
+    position: relative;
+    bottom: 10px;
+}
+
+@media screen and (max-width:768px) {
+    #box {
+        width: 200px;
+    }
+
+    .bgc {
+        width: 100%;
+        height: 180vh;
+        background-color: black;
+        padding: 100px 0 0 10px;
+    }
+
+    #promenu {
+        padding-top: 50px;
+    }
+}
